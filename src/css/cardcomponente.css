@@ -1,0 +1,85 @@
+/* cardcomponente.css */
+
+.enlacecard {
+  text-decoration: none;
+}
+
+.wrapper-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card-new {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.8s ease-in-out;
+}
+
+.card-new:hover {
+  background-color: #016e86d0;
+}
+
+.card__image-new {
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card-new:hover .card__image-new {
+  opacity: 0.7; /* Hace que la imagen desaparezca en el hover */
+}
+.card__image-new img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-new:hover .card__overlay {
+  opacity: 1;
+}
+
+.card__overlay-text {
+  color: white;
+  font-family: "Poppins, sans-serif";
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Resto de tu código */
+.card-new .card__overlay-text {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-new:hover .card__overlay-text {
+  opacity: 1;
+}
+
+.enlacecard {
+  text-decoration: none;
+  color: transparent;
+  /* Ajusta otros estilos según sea necesario, por ejemplo, el color del texto en hover */
+}
+
+.card-new:hover .enlacecard {
+  visibility: hidden; /* Oculta completamente el enlace en el hover */
+}

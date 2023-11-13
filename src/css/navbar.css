@@ -1,0 +1,36 @@
+.navbar{
+    background-color: white;
+
+}
+.logo-img {
+    max-width: 300px;
+    max-height: 200px;
+    margin-top: -50px;
+    margin-bottom: -50px; /* Puedes ajustar este valor según tus necesidades */
+  
+    /* Media query para pantallas pequeñas (ajusta el tamaño según sea necesario) */
+    @media (max-width: 768px) {
+      max-width: 200px;
+      max-height: 150px;
+      margin-top: -30px; 
+      margin-left: -20px;
+    
+    }
+  }
+ .que{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+ } 
+
+
+ .nav-link {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 15px;
+  color: #016E86 !important; /* Añadir !important */
+  transition: color 0.3s; /* Agregar transición para el efecto hover */
+}
+
+.nav-link:hover {
+  color:#77dbf1 !important;
+}
