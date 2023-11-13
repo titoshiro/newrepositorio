@@ -1,7 +1,7 @@
 import Card3 from "../componentes/card3"
 import Navbar from "../componentes/navbar"
 import foto from "../imagenes/sobremi.png"
-
+import Footer from "../componentes/footer"
 
 const Sobremi = () => {
   return (
@@ -33,7 +33,13 @@ const Sobremi = () => {
         </div>
       </div>
     </div>
-    
+    <div className="container">
+        <div className="row">
+          <div className="col">
+            <Footer/>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
