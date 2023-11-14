@@ -1,0 +1,15 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/sobremi", "dest": "/" },
+    { "src": "/talentohub", "dest": "/" },
+    { "src": "/lipigas", "dest": "/" },
+    { "src": "/kitchen", "dest": "/" },
+    { "src": "/battle", "dest": "/" },
+    { "src": "/star", "dest": "/" },
+    { "src": "/contactos", "dest": "/" },
+    { "src": "/adopta", "dest": "/" },
+    { "src": "/trabajo", "dest": "/" },
+    { "src": "/cine", "dest": "/" }
+  ]
+}
