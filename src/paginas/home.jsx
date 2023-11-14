@@ -29,26 +29,26 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-4">
-            <CardDemo imagen={talento} enlace={"talentohub"} />
+            <CardDemo imagen={talento} enlace={"/talentohub"} />
           </div>
           <div className="col-12 col-md-4">
-            <CardDemo imagen={lipigas} enlace={"lipigas"} />
+            <CardDemo imagen={lipigas} enlace={"/lipigas"} />
           </div>
           <div className="col-12 col-md-4">
-            <CardDemo imagen={kitchen}  enlace={"kitchen"}/>
+            <CardDemo imagen={kitchen}  enlace={"/kitchen"}/>
           </div>
         </div>
       </div>
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-4">
-            <CardDemo imagen={battle} enlace={"battle"} />
+            <CardDemo imagen={battle} enlace={"/battle"} />
           </div>
           <div className="col-12 col-md-4">
-            <CardDemo imagen={star}  enlace={"star"}/>
+            <CardDemo imagen={star}  enlace={"/star"}/>
           </div>
           <div className="col-12 col-md-4">
-            <CardDemo imagen={tus}  enlace={"contactos"}/>
+            <CardDemo imagen={tus}  enlace={"/contactos"}/>
           </div>
         </div>
       </div>
@@ -56,13 +56,13 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-4">
-            <CardDemo imagen={adopta} enlace={"adopta"} />
+            <CardDemo imagen={adopta} enlace={"/adopta"} />
           </div>
           <div className="col-12 col-md-4">
-            <CardDemo imagen={trabajo}  enlace={"trabajo"}/>
+            <CardDemo imagen={trabajo}  enlace={"/trabajo"}/>
           </div>
           <div className="col-12 col-md-4">
-            <CardDemo imagen={cine}  enlace={"cine"}/>
+            <CardDemo imagen={cine}  enlace={"/cine"}/>
           </div>
         </div>
       </div>
