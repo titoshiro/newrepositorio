@@ -16,6 +16,7 @@
       margin-left: -20px;
     
     }
+    
   }
  .que{
   font-family: 'Quicksand', sans-serif;
@@ -30,7 +31,12 @@
   color: #016E86 !important; /* Añadir !important */
   transition: color 0.3s; /* Agregar transición para el efecto hover */
 }
-
+@media (max-width: 768px) {
+  .nav-link {
+    margin-left: auto; /* Ajusta el margen izquierdo a "auto" para pantallas pequeñas */
+  }
+}
 .nav-link:hover {
   color:#77dbf1 !important;
 }
+

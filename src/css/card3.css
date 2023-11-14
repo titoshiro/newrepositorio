@@ -44,3 +44,8 @@
 .img-fluid2{
     margin-top: 190px;
 }
+@media (max-width: 768px) {
+  .img-fluid2 {
+    margin-top: 5px; /* Ajusta el valor según tus necesidades para pantallas pequeñas */
+  }
+}
