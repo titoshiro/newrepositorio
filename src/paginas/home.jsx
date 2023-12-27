@@ -7,11 +7,14 @@ import cine from "../imagenes/cineok1.png";
 import talento from "../imagenes/talentohub.png";
 import lipigas from "../imagenes/lipigas.png";
 import kitchen from "../imagenes/kitchen.png";
-import battle from "../imagenes/battle.png";
+import battle from "../imagenes/battleship.png";
+import fastco from "../imagenes/fastco.png"
 import star from "../imagenes/star.png"
+import redponcho from "../imagenes/redponcho.png"
 import Portada from "../componentes/portada"
-import tus from "../imagenes/tus.png";
+import tus from "../imagenes/contactos.png";
 import Footer from "../componentes/footer"
+
 import "../css/home.css";
 const Home = () => {
   return (
@@ -35,7 +38,7 @@ const Home = () => {
             <CardDemo imagen={lipigas} enlace={"/lipigas"} />
           </div>
           <div className="col-12 col-md-4">
-            <CardDemo imagen={kitchen}  enlace={"/kitchen"}/>
+          <CardDemo imagen={fastco}  enlace={"/presentacion"}/>
           </div>
         </div>
       </div>
@@ -51,7 +54,20 @@ const Home = () => {
             <CardDemo imagen={tus}  enlace={"/contactos"}/>
           </div>
         </div>
-      </div>
+        
+     
+          </div>
+          <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <CardDemo imagen={kitchen} enlace={"/battle"} />
+          </div>
+          <div className="col-12 col-md-6">
+            <CardDemo imagen={redponcho}  enlace={"/redponcho"}/>
+          </div>
+          
+        </div>
+          </div>
       <h1 className="desarrollo">Diseño UX</h1>
       <div className="container">
         <div className="row">

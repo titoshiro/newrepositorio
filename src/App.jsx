@@ -10,7 +10,8 @@ import Contacto from "./paginas/contactos";
 import Adopta from "./paginas/adopta";
 import Trabajo from "./paginas/trabajo";
 import Cine from "./paginas/cine";
-
+import Presentacion from "./paginas/presentacion";
+import Redponcho from "./paginas/redponcho"
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         <Route path="/adopta" element={<Adopta />} />
         <Route path="/trabajo" element={<Trabajo />} />
         <Route path="/cine" element={<Cine />} />
+        <Route path="/presentacion" element={<Presentacion />} />
+        <Route path="/redponcho" element={<Redponcho />} />
+
 
       </Routes>
     </BrowserRouter>

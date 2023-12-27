@@ -21,7 +21,8 @@ const Kitchen = () => {
   titulo={"Kitchen Companion"}
   texto1={"Proyecto colaborativo centrado en la creación de recetas personalizadas a partir de los ingredientes disponibles en el refrigerador del usuario."}
   githubLink={ "https://github.com/titoshiro/KitchenCompanion" }
-  
+  mostrarIconoGithub={true}  // Mostrará el icono de GitHub
+  mostrarIconoPagina={false} // No mostrará el icono de Página
 />
   </div>
 </div>

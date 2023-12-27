@@ -1,9 +1,10 @@
-
 import Navbar from "../componentes/navbar"
 import Card1 from "../componentes/card1"
-import starpc from "../imagenes/nuevo5.png"
+import fastcopresentacion from "../imagenes/fastcopresentacion.png"
 import Footer from "../componentes/footer"
-const Star = () => {
+
+
+const Presentacion = () => {
   return (
     <>
     <div className="container-fluid">
@@ -17,12 +18,12 @@ const Star = () => {
 <div className="row">
   <div className="col-12">
   <Card1
-  imagen={starpc}
-  titulo={"Star Wars"}
-  texto1={"Aplicación interactiva que utiliza la API de Star Wars para explorar personajes, vehículos y planetas del universo. ¡Sumérgete en el mundo de Star Wars de manera divertida y educativa!"}
-  githubLink={ "https://github.com/titoshiro/Blog_de_Starwars" }
-  mostrarIconoGithub={true}  // Mostrará el icono de GitHub
-  mostrarIconoPagina={false} // No mostrará el icono de Página
+  imagen={fastcopresentacion}
+  titulo={"Presentación Fastco"}
+  texto1={"Presentación comercial para la empresa Fastco, realizado con WordPress"}
+  pageLink={ "https://fastcopresentacion.somostalentohub.com"}
+  mostrarIconoGithub={false}  // Mostrará el icono de GitHub
+  mostrarIconoPagina={true} // No mostrará el icono de Página
 />
   </div>
 </div>
@@ -38,4 +39,4 @@ const Star = () => {
   )
 }
 
-export default Star
+export default Presentacion

@@ -1,9 +1,10 @@
-
 import Navbar from "../componentes/navbar"
 import Card1 from "../componentes/card1"
-import starpc from "../imagenes/nuevo5.png"
+import redponcho2 from "../imagenes/redponcho2.png"
 import Footer from "../componentes/footer"
-const Star = () => {
+
+
+const Redponcho = () => {
   return (
     <>
     <div className="container-fluid">
@@ -17,12 +18,12 @@ const Star = () => {
 <div className="row">
   <div className="col-12">
   <Card1
-  imagen={starpc}
-  titulo={"Star Wars"}
-  texto1={"Aplicación interactiva que utiliza la API de Star Wars para explorar personajes, vehículos y planetas del universo. ¡Sumérgete en el mundo de Star Wars de manera divertida y educativa!"}
-  githubLink={ "https://github.com/titoshiro/Blog_de_Starwars" }
-  mostrarIconoGithub={true}  // Mostrará el icono de GitHub
-  mostrarIconoPagina={false} // No mostrará el icono de Página
+  imagen={redponcho2}
+  titulo={"Red Poncho"}
+  texto1={"Actualización de página web de redponcho sello discográfico, trabajada con WordPress"}
+  pageLink={ "https://www.redponchoproducciones.com/"}
+  mostrarIconoGithub={false}  // Mostrará el icono de GitHub
+  mostrarIconoPagina={true} // No mostrará el icono de Página
 />
   </div>
 </div>
@@ -38,4 +39,4 @@ const Star = () => {
   )
 }
 
-export default Star
+export default Redponcho

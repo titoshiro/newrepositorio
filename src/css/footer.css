@@ -1,0 +1,15 @@
+.iconos{
+color:#016E86;
+transition: color 0.3s;
+width: 500px !important;
+margin-left: 20px;
+
+}
+
+.iconos:hover{
+    color:#77dbf1
+}
+
+.hecho{
+    color:#016E86 !important ;  
+}
