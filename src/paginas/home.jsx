@@ -12,7 +12,7 @@ import fastco from "../imagenes/fastco.png"
 import star from "../imagenes/star.png"
 import redponcho from "../imagenes/redponcho.png"
 import Portada from "../componentes/portada"
-import tus from "../imagenes/contactos.png";
+import contacto from "../imagenes/contactos.png";
 import Footer from "../componentes/footer"
 
 import "../css/home.css";
@@ -51,7 +51,7 @@ const Home = () => {
             <CardDemo imagen={star}  enlace={"/star"}/>
           </div>
           <div className="col-12 col-md-4">
-            <CardDemo imagen={tus}  enlace={"/contactos"}/>
+            <CardDemo imagen={contacto}  enlace={"/contactos"}/>
           </div>
         </div>
         
