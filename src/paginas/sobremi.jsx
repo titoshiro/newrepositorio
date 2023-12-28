@@ -26,9 +26,11 @@ const Sobremi = () => {
   githubLink={"https://github.com/titoshiro/"}
   linkedinLink={"https://www.linkedin.com/in/héctor-gerardo-silva-villena"}
   spotifyLink={"https://open.spotify.com/artist/2CSuYJKb4Mr9ta1lasaTjb?si=RNiCBVW9RDaQsHWHjkS3WQ"}
+  pageLink={"https://drive.google.com/file/d/1URH8UJoFh__nCU4M08iWyz6hsFvwqRZ8/view?usp=drive_link"}
   mostrarIconoGithub={true}
   mostrarIconoLinkedin={true}
   mostrarIconoSpotify={true}
+  mostrarIconoPagina = {true}
 />
         </div>
       </div>

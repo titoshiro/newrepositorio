@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { FaGithubSquare, FaLinkedin, FaSpotify } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaSpotify,FaExternalLinkAlt} from 'react-icons/fa';
 import "../css/card3.css";
 
 const Card3 = ({
@@ -7,12 +7,14 @@ const Card3 = ({
   titulo,
   texto1,
   texto2,
+  pageLink,
   githubLink,
   linkedinLink,
   spotifyLink,
   mostrarIconoGithub = true,
   mostrarIconoLinkedin = true,
   mostrarIconoSpotify = true,
+  mostrarIconoPagina = true,
 }) => {
   return (
     <>
@@ -27,6 +29,11 @@ const Card3 = ({
               <p className="card-text">{texto1}</p>
               <p className="card-text2">{texto2}</p>
               <div className="d-flex justify-content-space-around align-items-center">
+              {mostrarIconoPagina && (
+                  <a href={pageLink} target="_blank" rel="noopener noreferrer">
+                    <FaExternalLinkAlt size={50} />
+                  </a>
+                )}
                 {mostrarIconoGithub && (
                   <a href={githubLink} target="_blank" rel="noopener noreferrer">
                     <FaGithubSquare size={50} />
