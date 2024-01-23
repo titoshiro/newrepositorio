@@ -12,6 +12,7 @@ import Trabajo from "./paginas/trabajo";
 import Cine from "./paginas/cine";
 import Presentacion from "./paginas/presentacion";
 import Redponcho from "./paginas/redponcho"
+import Sicologo from "./paginas/sicologo";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/cine" element={<Cine />} />
         <Route path="/presentacion" element={<Presentacion />} />
         <Route path="/redponcho" element={<Redponcho />} />
+        <Route path="/sicologo" element={<Sicologo />} />
 
 
       </Routes>

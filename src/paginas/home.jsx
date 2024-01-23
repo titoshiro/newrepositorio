@@ -13,6 +13,7 @@ import star from "../imagenes/star.png"
 import redponcho from "../imagenes/redponcho.png"
 import Portada from "../componentes/portada"
 import tus from "../imagenes/tus.png";
+import sicologo from "../imagenes/sicologo.png"
 import Footer from "../componentes/footer"
 
 import "../css/home.css";
@@ -59,11 +60,14 @@ const Home = () => {
           </div>
           <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-4">
             <CardDemo imagen={kitchen} enlace={"/battle"} />
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-4">
             <CardDemo imagen={redponcho}  enlace={"/redponcho"}/>
+          </div>
+          <div className="col-12 col-md-4">
+            <CardDemo imagen={sicologo}  enlace={"/sicologo"}/>
           </div>
           
         </div>

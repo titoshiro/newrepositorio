@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p className="hecho col-md-4 mb-0 text-muted">© 2023. Hecho x Hector Silva</p>
+        <p className="hecho col-md-4 mb-0 text-muted">© 2024. Hecho x Hector Silva</p>
         <ul className="nav col-md-4 justify-content-end">
         <div>
         <a className="iconos" href="https://www.linkedin.com/in/héctor-gerardo-silva-villena" target="_blank" rel="noopener noreferrer">
